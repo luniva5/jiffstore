@@ -1,61 +1,143 @@
 /*for header and footer*/
 body{
     margin: 0%;
+    overflow-x: hidden;
 }
 .container{
-    background-color: rgb(207, 190, 190);
-    opacity: 0.5;
+    background-color: black;
     width: 100%;
-    padding: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 .navbar{
     display: inline-block;
 }
-
 .navname a{
     text-decoration: none;   
-    font-family: Comic Sans Ms;
+    color:azure;
+    font-family: Copperplate, Papyrus,Trebuchet MS;
     font-size: 25px;
     font-weight: bold;
-    padding-left: 200px;
-    padding-right: 1150px;
+    
 }
+
 nav li{
     display: inline-block;
 }
-i{
-    padding-left: 20px;
-    font-size: 20px;  
+nav i{
+    padding: 10px 10px;
+    font-size: 20px;
+    color: azure;  
 }
 footer{
-    background-color: rgb(207, 190, 190);
-    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
     position: absolute;
-    bottom: 0;
     width: 100%;
+    color: azure;
 }
 .foot{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     
 }
 .foot.info{
     display: inline-block;
 }
 .foot.info h3{
-    font-family: Comic Sans Ms;
     font-size: 15px;
 }
 .foot.info i{
     font-size: 13px;
+    color: azure;
 }
 .foot.info a{
-    color: black;
+    color: azure;
     text-decoration: none;
 }
-.foot.copy{
+.foot.copy p{
     font-weight: bold;
+    color: azure;
 }
 hr{
     color: whitesmoke;
+}
+/*main*/
+#home{
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height:90vh;
+    background-size:100% 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-main{
+    padding: 12%;
+    text-align: center;
+}
+.container-main h1{
+    font-size: 40px;
+    font-family: Copperplate, Papyrus,Trebuchet MS;
+}
+.container-main p{
+    font-size: 20px;
+}
+.desc{
+   padding: 50px 500px;
+   text-align: center;
+   text-transform: none;
+   text-decoration: solid;
+} 
+.desc h3{
+    font-family: Copperplate, Papyrus,Trebuchet MS;
+    font-size: 25px;
+    padding-top: 30px;
+}
+button{
+    font-size:0.8rem;
+    font-weight:700;
+    outline:none;
+    border:none;
+    background-color:black;
+    color:aliceblue;
+    padding:12px 30px;
+    cursor:pointer;
+    transition:0.4s ease;
+}
+button:hover{
+    color: black;
+    background-color:#ddd;
+    opacity: 0.5;
+}
+p{
+    color:rgb(62, 62, 65);
+}
+.row{
+    text-align: center;
+}
+.product{
+    display: inline-block;
+    cursor:pointer;
+    padding: 30px;
+    text-align: center;
+}
+.product img{
+ transition: 0.4s all;
+}
+.img-fluid{
+    width: 280px;
+    height: 300px;
+}
+.product:hover img{
+    opacity:0.8;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Georgia, serif;
+}
+.product-price{
+    font-family: Georgia, serif;
 }
