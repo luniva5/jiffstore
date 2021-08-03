@@ -59,3 +59,74 @@ footer{
 hr{
     color: whitesmoke;
 }
+
+
+#home{
+    color:black;
+    
+}
+#home{
+    background-image: url("Images/bg1.jpg");
+    width:100%;
+    height:100vh;
+    background-size:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+body{
+    margin:0%;
+}
+.container{
+    padding-left: 100px;
+}
+.desc{
+   padding: 50px 500px;
+   text-align: center;
+   text-transform: none;
+   text-decoration: solid;
+} 
+button{
+    font-size:0.8rem;
+    font-weight:700;
+    outline:none;
+    border:none;
+    background-color:black;
+    color:aliceblue;
+    padding:12px 30px;
+    cursor:pointer;
+    transition:0.4s ease;
+}
+button:hover{
+ background-color: lightblue;
+}
+p{
+    color:rgb(62, 62, 65);
+}
+.row{
+    padding: 0px 60px;
+}
+.product{
+    display: inline-block;
+    cursor:pointer;
+    margin-bottom: 2rem;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.product img{
+ transition: 0.4s all;
+}
+.img-fluid{
+    width: 280px;
+    height: 300px;
+}
+.product:hover img{
+    opacity:0.8;
+}
+
+.product .buy-btn{
+    background: black;
+}
+
