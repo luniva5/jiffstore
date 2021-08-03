@@ -10,10 +10,8 @@
     <script src="https://kit.fontawesome.com/d3fd199152.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    @include('layout.header')
-    <div>
-        @yield('content')
-    </div>
-    @include('layout.footer')
+    {{View::make('layout.header')}} 
+    @yield('content')
+    {{View::make('layout.footer')}}
 </body>
 </html>
