@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/laravel', function () {
-    return view('welcome');
-});
+//Route::get('/laravel', function () {
+ //   return view('welcome');
+//});
 Route::get('/', function () {
-    return view('master');
+    return view('index');
 });
 Route::get('/login', function () {
     return view('login');
