@@ -117,6 +117,10 @@ p{
 .row{
     text-align: center;
 }
+.img-fluid{
+    width: 280px;
+    height: 300px;
+}
 .product{
     display: inline-block;
     cursor:pointer;
@@ -126,12 +130,17 @@ p{
 .product img{
  transition: 0.4s all;
 }
-.img-fluid{
-    width: 280px;
-    height: 300px;
-}
 .product:hover img{
     opacity:0.8;
+}
+.product .buy-btn{
+    background:rgb(62, 62, 65);
+    opacity: 0;
+    transition:0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
 }
 .product-name{
     font-size: 20px;
