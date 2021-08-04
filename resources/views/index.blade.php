@@ -76,6 +76,18 @@
             <h4 class="product-price">Rs 850</h4>
             <button class="buy-btn">Buy now</button>
         </div>
+        <div class="product">
+            <img class="img-fluid" src="/images/11.jpg" alt="Crop top">
+            <h5 class="product-name">Crop top</h5>
+            <h4 class="product-price">Rs 650</h4>
+            <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product">
+            <img class="img-fluid" src="/images/12.jpg" alt="Cargo Pants">
+            <h5 class="product-name">Cargo Pants</h5>
+            <h4 class="product-price">Rs 1350</h4>
+            <button class="buy-btn">Buy now</button>
+        </div>
     </div>
  </section>
  @endsection
