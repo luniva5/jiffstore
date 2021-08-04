@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-
+<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Login and Registration Form in HTML</title>
+      <title>Login and Registration Form in HTML | CodingNepal</title>
       <link rel="stylesheet" href="style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <style>
@@ -19,7 +19,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #2e2828, #f1edef);
+  background: -webkit-linear-gradient(left, #131212, #838182);
 }
 ::selection{
   background: #e6dbe0;
@@ -77,7 +77,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #8b3e97, #fa4299);
+  background: -webkit-linear-gradient(left, #161216, #e9e2e5);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
@@ -130,7 +130,7 @@ input[type="radio"]{
   transition: all 0.3s ease;
 }
 .form-inner form .field input:focus{
-  border-color: #fc83bb;
+  border-color: #f0e3e9;
   /* box-shadow: inset 0 0 3px #fb6aae; */
 }
 .form-inner form .field input::placeholder{
@@ -149,7 +149,7 @@ form .field input:focus::placeholder{
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a{
-  color: #fa4299;
+  color: #423b3e;
   text-decoration: none;
 }
 .form-inner form .pass-link a:hover,
@@ -168,7 +168,7 @@ form .btn .btn-layer{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+  background: -webkit-linear-gradient(right, #000000, #1b1116, #535053, #ebe6e8);
   border-radius: 5px;
   transition: all 0.4s ease;;
 }
@@ -182,7 +182,7 @@ form .btn input[type="submit"]{
   position: relative;
   background: none;
   border: none;
-  color: #fff;
+  color: rgb(136, 120, 120);
   padding-left: 0;
   border-radius: 5px;
   font-size: 20px;
