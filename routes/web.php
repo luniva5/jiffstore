@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -62,4 +64,7 @@ Route::get('/details.croptop', function () {
 });
 Route::get('/details.cargopants', function () {
     return view('details.cargopants');
+});
+Route::get('/checkout', function () {
+    return view('checkout');
 });
