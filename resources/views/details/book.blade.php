@@ -28,8 +28,8 @@ The Alchemist - Jiffstore
             <p>Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different--and far more satisfying--than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.</p></i>
             </div>      
         </div>
-        <div class="btn">
-        <button class="buy-btn"><a href="">Buy now</a></button>
+        <div class="buyoption">
+        <button class="buy-btn"><a href="checkout">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>   
         </div>
     </div><br><br>
@@ -38,30 +38,27 @@ The Alchemist - Jiffstore
     <h1 class="extra">You may also like</h1><br>
     <div class="product">
         <img class="img-fluid" src="/images/8.jpg" alt="Hand bag">
-        <h5 class="product-name">Hand bag</h5>
-        <button class="buy-btn"><a href="details.bag">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <h5 class="product-name">Hand bag</h5>            
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div> 
     <div class="product">
         <img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts">
-        <h5 class="product-name">Black Biker Shorts</h5>
-        <button class="buy-btn"><a href="details.bikershorts">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <h5 class="product-name">Black Biker Shorts</h5>           
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
         <img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee">
         <h5 class="product-name">Graphics Tee</h5>
-        <button class="buy-btn"><a href="details.graphictee">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
         <img class="img-fluid" src="/images/11.jpg" alt="Crop top">
         <h5 class="product-name">Crop top</h5>
-        <button class="buy-btn"><a href="details.croptop">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
         <img class="img-fluid" src="/images/12.jpg" alt="Cargo Pants">
         <h5 class="product-name">Cargo Pants</h5>
-        <button class="buy-btn"><a href="details.cargopants">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
 </section>

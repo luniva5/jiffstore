@@ -95,7 +95,7 @@ hr{
     font-size: 25px;
     padding-top: 30px;
 }
-button{
+.shop-btn{
     font-size:0.8rem;
     font-weight:700;
     outline:none;
@@ -106,7 +106,7 @@ button{
     cursor:pointer;
     transition:0.4s ease;
 }
-button:hover{
+.shop-btn:hover{
     color: black;
     background-color:#ddd;
     opacity: 0.5;
@@ -133,13 +133,26 @@ p{
 .product:hover img{
     opacity:0.8;
 }
+.buy-btn{
+    font-size:0.8rem;
+    font-weight:700;
+    outline:none;
+    border:none;
+    background-color:black;
+    color:aliceblue;
+    padding:12px 30px;
+    cursor:pointer;
+    transition:0.4s ease;
+}
 .buy-btn a{
     text-decoration: none;
     color: white;
 }
-.buy-btn a:hover{
-    color: black;
+.buy-btn:hover{
+    background-color: rgba(170, 166, 166, 0.801);
+    opacity: 0.8;
 }
+
 .product .buy-btn{
     background:rgb(62, 62, 65);
     opacity: 0;
@@ -178,7 +191,7 @@ p{
     width: 400px;
     height: 480px;
 }
-.btn{
+.buyoption{
     text-align:center;
 }
 .youmaylike{
