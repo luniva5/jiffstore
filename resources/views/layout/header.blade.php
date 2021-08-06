@@ -2,7 +2,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="navname">
-                    <p><a href="">JIFFSTORE</a></p>
+                    <p><a href="/">JIFFSTORE</a></p>
                 </div>
             </div>
             <div class="navbar">

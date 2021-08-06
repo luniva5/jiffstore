@@ -1,7 +1,6 @@
 @extends('master')
 @section("content")
-
-<h2>Checkout</h2>
+<h2 class=check>Checkout</h2>
 <div class="row1">
   <div class="col-75">
     <div class="container1">
@@ -50,7 +49,7 @@
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
-        <input type="submit" value="Continue to checkout" class="btn">
+        <input type="submit" value="Proceed to Pay" class="btn">
       </form>
     </div>
   </div>
@@ -66,7 +65,5 @@
     </div>
   </div>
 </div>
-
-</body>
-</html>
+<br><br>
 @endsection

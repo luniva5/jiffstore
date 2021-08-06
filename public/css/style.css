@@ -190,20 +190,18 @@ p{
     font-family: Copperplate, Papyrus,Trebuchet MS;
 }
 /*for checkout*/
-body {
-    font-family: Arial;
-    font-size: 17px;
-    padding: 8px;
-  }
   * {
     box-sizing: border-box;
+  }
+  .check{
+     margin: 30px;
   }
   .row1{
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    margin: 0 -16px;
+    margin: 3px 16px;
   }
   .col-25 {
     -ms-flex: 25%; /* IE10 */
