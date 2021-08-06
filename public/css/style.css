@@ -117,10 +117,6 @@ p{
 .row{
     text-align: center;
 }
-.img-fluid{
-    width: 280px;
-    height: 300px;
-}
 .product{
     display: inline-block;
     cursor:pointer;
@@ -128,10 +124,21 @@ p{
     text-align: center;
 }
 .product img{
- transition: 0.4s all;
+    transition: 0.4s all;
+}
+.img-fluid{
+    width: 280px;
+    height: 300px;
 }
 .product:hover img{
     opacity:0.8;
+}
+.buy-btn a{
+    text-decoration: none;
+    color: white;
+}
+.buy-btn a:hover{
+    color: black;
 }
 .product .buy-btn{
     background:rgb(62, 62, 65);
@@ -149,6 +156,38 @@ p{
 }
 .product-price{
     font-family: Georgia, serif;
+}
+/*product details*/
+.productinfo{
+    text-align: center;
+}
+.row-container{
+    display: inline-block;
+    margin: 3rem;
+}
+.row-container.details{
+    text-align: left;
+}
+.product-desc{
+    background-color: whitesmoke;
+    padding: 5px;
+    width:500px;
+    text-align: justify;
+}
+.img-left{
+    width: 400px;
+    height: 480px;
+}
+.btn{
+    text-align:center;
+}
+.youmaylike{
+    margin: 5rem;
+    text-align: center;
+}
+.extra{
+    font-size: 20px;
+    font-family: Copperplate, Papyrus,Trebuchet MS;
 }
 /*for checkout*/
 body {
