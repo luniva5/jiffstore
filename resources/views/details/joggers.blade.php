@@ -14,7 +14,7 @@ Joggers - Jiffstore
             <h4>Original price</h5>
             <h4 class="product-price"><del>Rs 1450</del></h4>
             <h4>Selling Price</h5>
-            <h4 class="product-price">Rs 850</h4>
+            <h4 class="product-price">Rs 800</h4>
             <h4>Quality</h4>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -30,41 +30,36 @@ Joggers - Jiffstore
 
             </div>      
         </div>
-        <div class="btn">
-        <button class="buy-btn"><a href="">Buy now</a></button>
+        <div class="options">
+        <div class="buyoption">
+        <button class="buy-btn"><a href="checkout">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>   
+        </div>
         </div>
     </div><br><br>
     <hr>
-<section class="youmaylike">
+    <section class="youmaylike">
     <h1 class="extra">You may also like</h1><br>
     <div class="product">
-        <img class="img-fluid" src="/images/8.jpg" alt="Hand bag">
-        <h5 class="product-name">Hand bag</h5>
-        <button class="buy-btn"><a href="details.bag">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div> 
-    <div class="product">
-        <img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts">
-        <h5 class="product-name">Black Biker Shorts</h5>
-        <button class="buy-btn"><a href="details.bikershorts">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <a href="details.bikershorts"><img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts"></a>
+        <h5 class="product-name">Black Biker Shorts</h5>           
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
-        <img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee">
+        <a href="details.converse"><img class="img-fluid" src="/images/5.jpg" alt="Converse"></a>
+        <h5 class="product-name">Converse</h5>
+        <button class="buy-btn"><a href="">Add to cart</a></button> 
+    </div>
+    <div class="product">
+            <a href="details.hoodie"><img class="img-fluid" src="/images/4.jpg" alt="Hoodie"></a>
+            <h5 class="product-name">Hoodie</h5>
+            <button class="buy-btn"><a href="">Add to cart</a></button>
+        </div>
+    <div class="product">
+        <a href="details.graphictee"><img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee"></a>
         <h5 class="product-name">Graphics Tee</h5>
-        <button class="buy-btn"><a href="details.graphictee">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
-    <div class="product">
-        <img class="img-fluid" src="/images/11.jpg" alt="Crop top">
-        <h5 class="product-name">Crop top</h5>
-        <button class="buy-btn"><a href="details.croptop">Buy now</a></button>
-        <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div>
-    <div class="product">
-        <img class="img-fluid" src="/images/12.jpg" alt="Cargo Pants">
-        <h5 class="product-name">Cargo Pants</h5>
-        <button class="buy-btn"><a href="details.cargopants">Buy now</a></button>
-        <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div>
+    
 </section>
 @endsection

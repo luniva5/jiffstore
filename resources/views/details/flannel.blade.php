@@ -26,44 +26,38 @@ Flannel - Jiffstore
             <i><h5 class="product-text">Description</h5>
             <p> &#9679;	Style:Casual</p></i>
             <p> &#9679;	Material : Woolen<p>
-            <p> &#9679;	Pattern Type:Plaid</p>
+            <p> &#9679;	Pattern: Plaid</p>
 
             </div>      
         </div>
-        <div class="btn">
-        <button class="buy-btn"><a href="">Buy now</a></button>
+        <div class="options">
+        <div class="buyoption">
+        <button class="buy-btn"><a href="checkout">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>   
+        </div>
         </div>
     </div><br><br>
     <hr>
-<section class="youmaylike">
+    <section class="youmaylike">
     <h1 class="extra">You may also like</h1><br>
     <div class="product">
-        <img class="img-fluid" src="/images/8.jpg" alt="Hand bag">
-        <h5 class="product-name">Hand bag</h5>
-        <button class="buy-btn"><a href="details.bag">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <a href="details.bag"><img class="img-fluid" src="/images/8.jpg" alt="Hand bag"></a>
+        <h5 class="product-name">Hand bag</h5>            
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div> 
     <div class="product">
-        <img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts">
-        <h5 class="product-name">Black Biker Shorts</h5>
-        <button class="buy-btn"><a href="details.bikershorts">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <a href="details.chain"><img class="img-fluid" src="/images/6.jpg" alt="Chain"></a>
+        <h5 class="product-name">Thin Fiagro Chain Necklace</h5>
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
-        <img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee">
+        <a href="details.leather"><img class="img-fluid" src="/images/7.jpg" alt="Leather Bomber Jacket"></a>
+        <h5 class="product-name">Leather Bomber Jacket</h5>
+        <button class="buy-btn"><a href="">Add to cart</a></button>
+    </div>
+    <div class="product">
+        <a href="details.graphictee"><img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee"></a>
         <h5 class="product-name">Graphics Tee</h5>
-        <button class="buy-btn"><a href="details.graphictee">Buy now</a></button>
-        <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div>
-    <div class="product">
-        <img class="img-fluid" src="/images/11.jpg" alt="Crop top">
-        <h5 class="product-name">Crop top</h5>
-        <button class="buy-btn"><a href="details.croptop">Buy now</a></button>
-        <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div>
-    <div class="product">
-        <img class="img-fluid" src="/images/12.jpg" alt="Cargo Pants">
-        <h5 class="product-name">Cargo Pants</h5>
-        <button class="buy-btn"><a href="details.cargopants">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
 </section>

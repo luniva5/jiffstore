@@ -7,7 +7,7 @@ Hoodie - Jiffstore
 <section>
     <div class="productinfo">
         <div class="row-container img">
-            <img class="img-left" src="/images/4.jpg" alt="Flannel">
+            <img class="img-left" src="/images/4.jpg" alt="Hoodie">
         </div>
         <div class="row-container details">
             <h2 class="product-name"><b>Hoodie</b></h2>
@@ -25,47 +25,42 @@ Hoodie - Jiffstore
             <br><br>
             <div class="product-desc">
             <i><h5 class="product-text">Description</h5>
-            <p> &#9679;	Style:Casual</p></i>
+            <p> &#9679;	Style: Casual</p></i>
             <p> &#9679;	Fabric: 100% Cotton<p>
             <p> &#9679;	Wash Care: Cold Wash / Separate Wash</p>
 
             </div>      
         </div>
-        <div class="btn">
-        <button class="buy-btn"><a href="">Buy now</a></button>
+        <div class="options">
+        <div class="buyoption">
+        <button class="buy-btn"><a href="checkout">Buy now</a></button>
         <button class="buy-btn"><a href="">Add to cart</a></button>   
+        </div>
         </div>
     </div><br><br>
     <hr>
-<section class="youmaylike">
+    <section class="youmaylike">
     <h1 class="extra">You may also like</h1><br>
     <div class="product">
-        <img class="img-fluid" src="/images/8.jpg" alt="Hand bag">
-        <h5 class="product-name">Hand bag</h5>
-        <button class="buy-btn"><a href="details.bag">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
+        <a href="details.bag"><img class="img-fluid" src="/images/8.jpg" alt="Hand bag"></a>
+        <h5 class="product-name">Hand bag</h5>            
+        <button class="buy-btn"><a href="">Add to cart</a></button>
     </div> 
     <div class="product">
-        <img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts">
-        <h5 class="product-name">Black Biker Shorts</h5>
-        <button class="buy-btn"><a href="details.bikershorts">Buy now</a></button>            <button class="buy-btn"><a href="">Add to cart</a></button>
-    </div>
-    <div class="product">
-        <img class="img-fluid" src="/images/10.jpg" alt="Graphics Tee">
-        <h5 class="product-name">Graphics Tee</h5>
-        <button class="buy-btn"><a href="details.graphictee">Buy now</a></button>
+        <a href="details.bikershorts"><img class="img-fluid" src="/images/9.jpg" alt="Biker Shorts"></a>
+        <h5 class="product-name">Black Biker Shorts</h5>           
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
-        <img class="img-fluid" src="/images/11.jpg" alt="Crop top">
-        <h5 class="product-name">Crop top</h5>
-        <button class="buy-btn"><a href="details.croptop">Buy now</a></button>
+        <a href="details.leather"><img class="img-fluid" src="/images/7.jpg" alt="Leather Bomber Jacket"></a>
+        <h5 class="product-name">Leather Bomber Jacket</h5>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
     <div class="product">
-        <img class="img-fluid" src="/images/12.jpg" alt="Cargo Pants">
-        <h5 class="product-name">Cargo Pants</h5>
-        <button class="buy-btn"><a href="details.cargopants">Buy now</a></button>
+        <a href="details.airjordan"><img class="img-fluid" src="/images/11.jpg" alt="Air Jordan"></a>
+        <h5 class="product-name">Air Jordan</h5>
         <button class="buy-btn"><a href="">Add to cart</a></button>
     </div>
+    
 </section>
 @endsection

@@ -43,8 +43,8 @@
         </div>
         <div class="product">
             <a href="details.chain"><img class="img-fluid" src="/images/6.jpg" alt="Chain"></a>
-            <h5 class="product-name">Gold plated Chain</h5>
-            <h4 class="product-price">Rs 800</h4>
+            <h5 class="product-name">Thin Fiagro Chain Necklace</h5>
+            <h4 class="product-price">Rs 350</h4>
         </div>
         <div class="product">
             <a href="details.leather"><img class="img-fluid" src="/images/7.jpg" alt="Leather Bomber Jacket"></a>
@@ -67,7 +67,7 @@
             <h4 class="product-price">Rs 1000</h4>
         </div>
        <div class="product">
-            <a href="details.jordan"><img class="img-fluid" src="/images/11.jpg" alt="Air Jordan"></a>
+            <a href="details.airjordan"><img class="img-fluid" src="/images/11.jpg" alt="Air Jordan"></a>
             <h5 class="product-name">Air Jordan</h5>
             <h4 class="product-price">Rs 4500</h4>
         </div>

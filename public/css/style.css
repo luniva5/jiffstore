@@ -188,11 +188,15 @@ p{
     text-align: justify;
 }
 .img-left{
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 390px;
+}
+.options{
+    text-align: center;
 }
 .buyoption{
-    text-align:center;
+    display:inline-flex;
+    justify-content: center;
 }
 .youmaylike{
     margin: 5rem;
