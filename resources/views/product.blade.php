@@ -1,4 +1,7 @@
 @extends('master')
+@section('title')
+Jiffstore - Come thrift with us
+@endsection
 @section("content")
 <section id="home">
     <div class="container-main">

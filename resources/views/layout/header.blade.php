@@ -12,8 +12,8 @@ $total= ProductController::cartItem();
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a href="login"><i class="far fa-user-circle"></i></a></li>
-                        <li><a href="cart"><i class="fas fa-shopping-cart"></i>({{$total}})</a></li>
+                        <li><a href="/login"><i class="far fa-user-circle"></i></a></li>
+                        <li><a href="/cart"><i class="fas fa-shopping-cart"></i>({{$total}})</a></li>
                         @if(Session::has('user'))
                         <li class="dropdown">
                             <i class="fas fa-caret-down"></i>

@@ -53,7 +53,7 @@
       </form>
     </div>
   </div>
-  <div class="col-25">
+  <!--<div class="col-25">
     <div class="container1">
       <h4>Order Summary <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
       <p><a href="images/2.jpg">Product1 </a> <span class="price">Rs750</span></p>
@@ -63,7 +63,7 @@
       <hr>
       <p>Total <span class="price" style="color:black"><b>Rs2600</b></span></p>
     </div>
-  </div>
+  </div>-->
 </div>
 <br><br>
 @endsection

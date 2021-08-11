@@ -3,7 +3,7 @@
 {{$product['name']}}- Jiffstore
 @endsection
 @section("content")
-<!--------single product details -------->
+<!--product details-->
 <section>
     <div class="productinfo">
         <div class="row-container img">
@@ -30,7 +30,7 @@
         </div>
         <div class="options">
             <div class="buyoption">
-                <button class="buy-btn">Buy now</button></div>
+                <a href="/checkout"><button class="buy-btn">Buy now</button></div></a>
                 <div class="buyoption">
                 <form action="/add_to_cart" method="POST">
                     @csrf 
@@ -38,10 +38,6 @@
                     <button class="buy-btn">Add to cart</button>   
                 </form>
             </div>
-        </div>
+        </div><br><br>
     <hr>
-<section class="youmaylike">
-    <h1 class="extra">You may also like</h1><br>
-       
-</section>
 @endsection

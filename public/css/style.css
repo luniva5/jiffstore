@@ -35,7 +35,6 @@ nav i{
     padding: 10px 10px;
     font-size: 20px;
     color: azure; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 li.dropdown {
     display: inline-block;
@@ -240,6 +239,11 @@ p{
 .extra{
     font-size: 20px;
     font-family: Copperplate, Papyrus,Trebuchet MS;
+}
+/*cart*/
+.cart-item{
+    margin: 5rem;
+    text-align: center;
 }
 /*for checkout*/
   * {
