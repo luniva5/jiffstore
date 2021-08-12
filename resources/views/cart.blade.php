@@ -18,7 +18,7 @@ Cart - Jiffstore
 @endforeach
 <hr><br><br><br><br>
 <a href="/"><button class="buy-btn">Continue Shopping</button></a>
-<a href="/checkout"><button class="buy-btn">Proceed to Pay</button></a>
+<a href="/ordernow"><button class="buy-btn">Proceed to Pay</button></a>
 </div>
 </section>
 @endsection

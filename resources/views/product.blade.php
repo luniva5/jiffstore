@@ -27,7 +27,6 @@ Jiffstore - Come thrift with us
             <h4 class="product-price">Rs {{$item['sellingprice']}}</h4>
          </div>
     @endforeach
-
     </div>
 </section>
 @endsection
