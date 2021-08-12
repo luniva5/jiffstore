@@ -30,7 +30,11 @@
         </div>
         <div class="options">
             <div class="buyoption">
-                <a href="/checkout"><button class="buy-btn">Buy now</button></div></a>
+                @if(Session::has('user'))
+                <a href="checkout"><button class="buy-btn">Buy now</button></div></a>
+                @else
+                <a href="/login"><button class="buy-btn">Buy now</button></div></a>
+                @endif
                 <div class="buyoption">
                 <form action="/add_to_cart" method="POST">
                     @csrf 

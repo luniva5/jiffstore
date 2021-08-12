@@ -192,10 +192,7 @@ p{
     opacity: 0;
     transition:0.3s all;
 }
-.product:hover .buy-btn{
-    transform: translateY(0);
-    opacity: 1;
-}
+
 .product-name{
     font-size: 20px;
     font-weight: lighter;
@@ -245,6 +242,28 @@ p{
     margin: 5rem;
     text-align: center;
 }
+/*.cont-btn{
+    font-size:0.8rem;
+    font-weight:700;
+    outline:none;
+    border:none;
+    background-color:#0071e3;
+    color:aliceblue;
+    padding:12px 30px;
+    cursor:pointer;
+    transition:0.4s ease;
+}
+.pay-btn{
+    font-size:0.8rem;
+    font-weight:700;
+    outline:none;
+    border:none;
+    background-color: #ac4408d2;
+    color:aliceblue;
+    padding:12px 30px;
+    cursor:pointer;
+    transition:0.4s ease;
+}*/
 /*for checkout*/
   * {
     box-sizing: border-box;
@@ -266,7 +285,7 @@ p{
   
   .col-50 {
     -ms-flex: 50%; /* IE10 */
-    flex: 50%;
+    flex: 50%; 
   }
   
   .col-75 {
