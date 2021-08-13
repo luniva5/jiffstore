@@ -355,3 +355,11 @@ p{
       margin-bottom: 20px;
     }
   }
+  /*my orders*/
+  .status{
+      text-align: left;
+      font-weight: lighter;
+      font-style: italic;
+  }
+
+  

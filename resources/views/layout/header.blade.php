@@ -19,6 +19,7 @@ $total= ProductController::cartItem();
                             <i class="fas fa-caret-down"></i>
                             <div class="dropdown-content">
                                 <a href="#"><i style="color:black; font-size: 12px; text-align: left; padding: 20px;">{{Session::get('user')['name']}}</i></a>
+                                <a href="/myorders">My orders</a>
                                 <a href="/logout">Log out</a>
                             </div>
                         </li>

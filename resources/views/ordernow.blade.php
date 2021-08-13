@@ -1,16 +1,19 @@
 @extends('master')
+@section('title')
+Order Now - Jiffstore
+@endsection
 @section("content")
 <h2 class=check>Checkout</h2>
 <div class="row1">
   <div class="col-75">
     <div class="container1">
-      <form action="/action_page.php">
-      
+      <form action="placeorder" method="POST">
+      @csrf
         <div class="row1">
           <div class="col-50">
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname">
+            <input type="text" id="fname" name="fullname">
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input type="text" id="email" name="email" >
             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
@@ -22,14 +25,14 @@
           </div>
 
           <div class="col-50">
-          <h3>Payment Methods</h3>
-          <label><input type="radio" name="payment"> Cash on delivery </label>
-          <label><input type="radio" name="payment"> esewa</label>
+          <label><h3>Payment Methods</h3>
+          <input type="radio" value="Cash on Delivery" name="payment"> Cash on delivery <br><br>
+          <input type="radio" value="Online Transaction" name="payment"> esewa
           </div>
           
         </div>
         <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          <br><input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
         <input type="submit" value="Proceed to Pay" class="btn">
       </form>

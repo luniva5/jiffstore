@@ -5,6 +5,7 @@
 @section("content")
 <!--product details-->
 <section>
+    <br><br><hr>
     <div class="productinfo">
         <div class="row-container img">
             <img class="img-left" src="{{$product['gallery']}}">
@@ -44,4 +45,5 @@
             </div>
         </div><br><br>
     <hr>
+    <br><br>
 @endsection
