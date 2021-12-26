@@ -7,6 +7,7 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}"/>
     <!--icons-->
+    <script src="https://khalti.s3.ap-south-1.amazonaws.com/KPG/dist/2020.12.17.0.0.0/khalti-checkout.iffe.js"></script>
     <script src="https://kit.fontawesome.com/d3fd199152.js" crossorigin="anonymous"></script>
 </head>
 <body>

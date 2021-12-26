@@ -15,7 +15,7 @@
         <div class="foot info">
             <h3>Get in touch</h3>
             <hr>
-            <p><a href=""><i class="fas fa-phone-alt"></i>  01number</a></p>
+            <p><a href=""><i class="fas fa-phone-alt"></i>  01-4231678</a></p>
             <p><a href=""><i class="fas fa-envelope"></i>  Email us</a></p>
         </div>
         <hr>
